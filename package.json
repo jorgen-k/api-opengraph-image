@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/11ty/indieweb-avatar#readme",
   "dependencies": {
-    "@11ty/eleventy-img": "^2.0.1",
+    "@11ty/eleventy-img": "^4.0.2",
     "cheerio": "^1.0.0-rc.12",
-    "node-fetch": "^2.6.2"
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "vercel": "^35.0.2"
+    "vercel": "^35.0.3"
   }
 }

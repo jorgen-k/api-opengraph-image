@@ -10,8 +10,8 @@
 		{ "source": "/:url/", "destination": "/api/og/" },
 		{ "source": "/:url/:size/", "destination": "/api/og/" },
 		{ "source": "/:url/:size/:format/", "destination": "/api/og/" },
-		{ "source": "/:url/:size/:format/:empty/", "destination": "/api/og/" },
-		{ "source": "/:url/:size/:format/:empty/:cachebust/", "destination": "/api/og/" }
+		{ "source": "/:url/:size/:format/:onerror/", "destination": "/api/og/" },
+		{ "source": "/:url/:size/:format/:onerror/:cachebust/", "destination": "/api/og/" }
 	],
 	"trailingSlash": true
 }
