@@ -32,10 +32,6 @@ URLs have the formats:
 
 * Appending the string value `onerror` to any valid URL format will return empty content (no default image) if an opengraph image is not found at the target URL. This will trigger `<img onerror>` in the browser which you can handle on the client (e.g. `<img onerror="this.remove()">` to remove the image).
 
-## Deploy your own
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/11ty/api-opengraph-image"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
 ## Demos
 
 <img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.netlify.com/small/" alt="OpenGraph Image for netlify.com">

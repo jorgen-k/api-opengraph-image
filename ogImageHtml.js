@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
-const cheerio = require("cheerio");
-const EleventyImage = require("@11ty/eleventy-img");
+import fetch from "node-fetch";
+import cheerio from "cheerio";
+import EleventyImage from "@11ty/eleventy-img";
 
 class OgImageHtml {
   constructor(url) {
@@ -80,4 +80,4 @@ class OgImageHtml {
   }
 }
 
-module.exports = OgImageHtml;
+export default OgImageHtml;
